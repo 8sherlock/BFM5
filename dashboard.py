@@ -211,7 +211,8 @@ def main():
         "Jsw Energy": "JSWENERGY.NS",
         "NTPC": "NTPC.NS",
         "Power Grid Corp": "POWERGRID.NS",
-        "NHPC": "NHPC.NS"
+        "NHPC": "NHPC.NS",
+        "Shriram Finance": "SHRIRAMFIN.NS"
     }
     company = st.sidebar.selectbox("Choose a company", list(companies.keys()))
     ticker = companies[company]
